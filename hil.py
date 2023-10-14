@@ -719,7 +719,7 @@ def login_lagi():
 							print(f"{kun}{x}[{hijo}•{x}] Token {hijo}: {access_token}")
 							tokenew = open(".kokitoken.txt","w").write(access_token)
 							cook= open(".kokicokies.txt","w").write(your_cookies)
-							print(f"{kun}{x}{hijo}◕➤ Login Berhasil Jalankan Ulang Python botak.py");exit()
+							print(f"{kun}{x}{hijo}◕➤ {kun}Login Berhasil Sedang Masuk SC HILMAN");time.sleep(3);os.system('python hil.py')
 			except Exception as e:
 				krek_cer(f"{kun}{x}{mer}◕➤ Login gagal cek tumbal lo ngab :-(")
 				os.system('rm -rf .kokicokies.txt && rm -rf .kokitoken.txt');print(e);time.sleep(3)
